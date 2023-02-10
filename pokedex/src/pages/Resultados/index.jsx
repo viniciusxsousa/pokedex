@@ -1,8 +1,14 @@
+import HeaderBusca from '../../components/HeaderBusca'
+import { Conteiner } from './styled'
+
 function resultados() {
     return (
-        <div>
-
-        </div>
+        <>
+            <HeaderBusca/>
+            <Conteiner>
+                
+            </Conteiner>
+        </>
     )
 } 
 
