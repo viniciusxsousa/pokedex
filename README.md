@@ -18,3 +18,6 @@ O pokedex é a realização de um desafio realizado pela copybase. Seu objetivo 
 * Buscar por um pokemon específico através do campo de busca.
 
 ### :desktop_computer: Previa
+
+https://user-images.githubusercontent.com/81489425/218269117-0cd5af4d-3978-4e80-acdf-250b0528fb58.mp4
+
