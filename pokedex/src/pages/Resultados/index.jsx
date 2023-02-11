@@ -25,19 +25,37 @@ function resultados() {
     
     const pokemonFiltro = (pesquisa) => {
         var pokemonsFiltrados = [];
+        
+       /* pokemons.filter( (e) => {
 
-        for( var i in pokemons) {
-            if(pokemons[i].name.include(pesquisa)) {
-                pokemonFiltro.push(pokemons[i]);
+            if(e.data.name === pesquisa){
+                console.log('entrou');
+                pokemonsFiltrados.push(e);
+                setPokemons[pokemonsFiltrados];
+                console.log(pokemonsFiltrados);
+
+            } else {
+                console.log(e.data.name);
+                console.log(pesquisa);
+            }
+
+        }); */
+        
+
+      for( var i in pokemons) {
+            console.log(pokemons[i]);
+            if(pokemons[i].data.name.includes(pesquisa)) {
+                console.log('entrou');
+                pokemonsFiltrados.push(pokemons[i]);
             }
         }
 
-        setPokemons[pokemonsFiltrados];
+        setPokemons(pokemonsFiltrados);
     }
 
     return (
         <>
-            <HeaderBusca pesquisa={pokemonFiltro}/>
+            <HeaderBusca pesquisar={pokemonFiltro}/>
             <Conteiner>
                 <h1>Resultados</h1>
                 <AreaFlex>
