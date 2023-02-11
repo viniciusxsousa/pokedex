@@ -11,7 +11,7 @@ function resultados() {
 
     var urls = [];
 
-    for(var i = 1; i <= 20; i++){
+    for(var i = 1; i <= 100; i++){
         urls.push(`https://pokeapi.co/api/v2/pokemon/${i}/`);
     }
 
