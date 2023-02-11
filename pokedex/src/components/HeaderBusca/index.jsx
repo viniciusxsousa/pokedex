@@ -1,3 +1,5 @@
+import { BsSearch, BsServer } from 'react-icons/bs'
+
 import { Cabecalho, CampoBusca } from './styles'
 
 import Logo from '../../assets/pokemon_logo.svg'
@@ -15,7 +17,7 @@ function header ( {pesquisar} ) {
             <img src={Logo} alt="Logo do pokemon"/>
             <CampoBusca>
                 <input onChange={(e) => pesquisar(e.target.value)} type="text" placeholder='Digite o nome do pokemon' />
-                <input type='submit' value='Buscar'/>
+                <button><BsSearch/></button>
             </CampoBusca>
         </Cabecalho>
     )

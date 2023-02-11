@@ -23,4 +23,11 @@ export const CampoBusca = styled.div`
         padding: .3em 1em;
         border: 3px solid #293744;
     }
+
+    button {
+        font-size: 1.3em;
+        background-color: transparent;
+        border: none;
+        transform: translateX(-33px);
+    }
 `
